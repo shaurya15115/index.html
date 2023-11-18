@@ -1,0 +1,328 @@
+*{margin:0;
+padding:0}
+
+ul {display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 2px;
+    }
+
+li {padding-right: 50px;
+    margin-top:5px}
+
+a {text-decoration: none;
+color: white;
+font-size: 1.2em;;
+;}
+
+a:hover {color: rgb(79, 79, 79);}
+
+li {list-style: none;
+    float: left;
+    text-decoration: none;
+    }
+
+ 
+.logo img{width:10%;
+          position: relative;
+        left: 100px;}
+
+H1 {margin-top: 3.5cm;
+    font-size: 5em;}
+
+h2{color: white;
+    text-align: center;}
+
+
+
+h1{text-align: center;
+    color: white;
+}
+
+h3{color: white;
+    text-align: center;
+    font-size: 0.8em;
+margin-top: 3cm;
+font-family: Name;
+letter-spacing: 1px;}
+
+.background {background: rgba(0,0,0,0.7) url('2images.jpg');
+background-blend-mode: darken;
+background-size: cover;}
+
+@font-face {
+    font-family:Nothing;
+    src: url(../CHEproject/MELADU\ ROSE.ttf);
+}
+
+@font-face {
+    font-family: Name;
+    src: url(../CHEproject/Quahon.ttf);
+}
+@font-face {
+        font-family: Catcheye;
+        src: url(../CHEproject/Catchye.ttf);
+    }
+
+/* Now this is the starting of the Effects page   */
+
+#Effect {color: black;
+margin-top: 100px;
+font-size: 2cm;
+text-align: center;
+font-family: catcheye ;
+letter-spacing: 5px;}
+
+.p1{margin-left: 3cm;
+font-size: 2.5em;
+margin-right: 14cm;
+padding: 20px;}
+
+.line{color: rgba(0, 255, 0, 0.806);
+background-color: rgba(0, 255, 0, 0.804);
+font-size: 0.5em;
+margin-right: 30cm;
+margin-left: 3.7cm;}
+
+.p1data
+{margin-left: 3cm;
+font-size: 1.5em;
+margin-right: 19cm;
+padding: 25px;}
+
+.img1{width: 500px;
+    position: relative;
+    bottom: 12cm;
+    right: 4.5cm;
+    float: right;
+/* float: right;
+position: relative;
+bottom: 4.8cm;
+margin-left: 80cm; */
+}  
+
+#p2 {
+    font-size: 2.5em ;
+    position: relative;
+    bottom: 10cm;
+    margin-left: 25cm;
+}
+
+.line2 {color: rgba(0, 255, 0, 0.806);
+background-color: rgba(0, 255, 0, 0.808);
+margin-right: 5.0cm;
+font-size: 0.5em;
+margin-left: 30cm;
+position: relative;
+bottom: 10cm;}
+
+#p2data {
+    margin-left: 15cm;
+    font-size: 1.5em;
+    margin-right: 3cm;
+    padding: 25px;
+    position: relative;
+    bottom: 10cm;
+}
+
+#about2 {
+    width: 30cm;
+    position: relative;
+    bottom: 23cm;
+    right: 7cm;
+}
+
+.p3{
+    position: relative;
+    bottom: 24cm;
+}
+
+.line3 {position:relative;
+bottom: 24cm;
+right: 0.25cm;}
+
+#p3data {
+    position: relative;
+    left: 0.8em;
+    bottom: 23cm;
+    margin-left: 3cm;
+    font-size: 1.5em;
+    margin-right: 19cm;
+    
+}
+
+
+#about3 {
+    width: 15cm;
+    position: relative;
+    left: 23cm;
+    bottom: 30.5cm;
+}
+
+
+.AboutContent1 {
+    font-size: 1.5em;
+    margin-left: 1.6cm;
+    padding: 25px;
+     margin-right: 14cm; 
+     position: relative;
+    left: 11.7cm;
+    bottom: 14cm;
+}
+
+ #introduction_image{
+    width: 12cm;
+    position: relative;
+    left: 28.2cm;
+    bottom: 13.76cm;
+} 
+
+
+#saveit {
+    width: 20cm;
+    position: relative;
+    bottom: 6cm;
+    left: 2cm;
+}
+
+#About {
+    color: black;
+margin-top: 100px;
+font-size: 2cm;
+text-align: center;
+font-family: catcheye ;
+letter-spacing: 5px;
+
+}
+
+#About2 {
+    color: black;
+font-size: 0.5cm;
+line-height: 1cm;
+font-family: catcheye;
+margin-top: 1cm;
+letter-spacing: 1px;
+margin-left: 2cm;
+}
+
+.about4 {
+    font-size: 0.9cm;
+    position: relative;
+    left: 13cm;
+    top: 2cm;
+    display: inline;
+}
+
+#VerticleLine {
+    background-color: rgb(1, 1, 221);
+    width: 4px;
+    height: 13cm;
+    position: relative;
+    left: 12cm;
+    top: 10.1cm;
+
+}
+
+/* Here ends the part for about section , and the Effects section  */
+
+/* Now , this is the css for Stats part of the website  */
+#Stats {
+    width: 40cm;
+    position: relative;
+    background-color: aqua;
+    bottom: 18cm;
+}
+
+/* So the stats part has ended  */
+
+/* Now this is the starting of the Causes part of website  */
+#Causes {
+    color: black;
+margin-top: 100px;
+font-size: 2cm;
+text-align: center;
+font-family: catcheye ;
+letter-spacing: 5px;
+}
+
+.causeimg{
+    width: 8cm;
+    padding: 30px;
+    border-radius: 1.5cm;
+    
+}
+
+.container-1{
+    padding-top: 2cm;
+    display: flex;
+    margin-left: 5.7cm;
+
+}
+
+.cause{
+    width: 10cm;
+    
+}
+
+
+
+.causep{
+    font-weight: bold;
+    font-size: 0.7cm;
+    margin-left: 1cm;
+} 
+
+.causecontentp{
+    font-size: 0.45cm;
+    padding-left: 1cm;
+    padding-right: 0.8cm;
+    padding-top: 0.4cm;
+}
+
+/* Causes complete  */
+/* So here we are starting the part of precautions  */
+
+#solutions{
+    color: black;
+margin-top: 100px;
+font-size: 2cm;
+text-align: center;
+font-family: catcheye ;
+letter-spacing: 5px;
+}
+
+.solimg{
+    width: 2.5cm;
+    padding-bottom: 0.4cm;
+    padding-top: 3cm;
+    padding-left: 1.3cm;
+}
+
+.solhead{
+    font-size: 0.7cm;
+    font-weight: bold;
+    padding-left: 0.5cm;
+    padding-bottom: 0.2cm;
+}
+
+.solcontent{
+    font-size: 0.5cm;
+}
+
+.solbox{
+    width: 6cm;
+    padding: 1cm;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
